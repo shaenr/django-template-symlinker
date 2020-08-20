@@ -2,10 +2,18 @@
 【﻿ｄｊａｎｇｓｙｍｔｍｐ．ｓｈ】 --  【﻿a simple Django-Template-Symlinker】
 This script automates the process of consolidating the infinitely many template directories that exist.
 
+[script](https://github.com/shanerowden/django-template-symlinker/blob/master/project/templates/djangsymtmp.sh)
+[demo-imgs](https://github.com/shanerowden/django-template-symlinker/tree/master/imgs)
+
+
+!【﻿ｄｊａｎｇｓｙｍｔｍｐ．ｓｈ】1[](https://github.com/shanerowden/django-template-symlinker/blob/master/imgs/djangsymtmp.sh-visual00.png)
+
 ## DEMO
 Take a look at the tree style project structure in the pictures in the `img` directory.
 
 All of the things highlighted in blue are the places where various apps and their templates exist in a Django web application. In fact, in this project, there are only two examples of such apps, but a Django project can become many more of these areas of blue.
+
+![【﻿ｄｊａｎｇｓｙｍｔｍｐ．ｓｈ】2](https://github.com/shanerowden/django-template-symlinker/blob/master/imgs/djangsymtmp.sh-visual11.png)
 
 You will find this kind of path everywhere in a Django project:
 `projec1_root/project1/app-one/templates/app-one/index.html`
@@ -16,6 +24,8 @@ Let us just say that there is a good reason for it. But it's nevertheless a lot 
 The red files (by coincidence) are marked noticably as the result of my script on this project... 
 these files are symbolically linked and connected to actual HTML templates that exist in the blue spaces. 
 You can see this more clearly in some of the pictures, with visual aids and/or actual path examples.
+
+![ 【﻿ｄｊａｎｇｓｙｍｔｍｐ．ｓｈ】3](https://github.com/shanerowden/django-template-symlinker/blob/master/imgs/djangsymtmp.sh-visual1.png)
 
 While you must still install your templates where they go, you can manage them with these name-spacing solutions in a single, relatively top-level directory that makes the entire thing more maintainable.
 
