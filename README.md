@@ -6,7 +6,7 @@ This script automates the process of consolidating the infinitely many template 
 [demo-imgs](https://github.com/shanerowden/django-template-symlinker/tree/master/imgs)
 
 
-!【﻿ｄｊａｎｇｓｙｍｔｍｐ．ｓｈ】1[](https://github.com/shanerowden/django-template-symlinker/blob/master/imgs/djangsymtmp.sh-visual00.png)
+![【﻿ｄｊａｎｇｓｙｍｔｍｐ．ｓｈ】1](https://github.com/shanerowden/django-template-symlinker/blob/master/imgs/djangsymtmp.sh-visual00.png)
 
 ## DEMO
 Take a look at the tree style project structure in the pictures in the `img` directory.
@@ -25,7 +25,7 @@ The red files (by coincidence) are marked noticably as the result of my script o
 these files are symbolically linked and connected to actual HTML templates that exist in the blue spaces. 
 You can see this more clearly in some of the pictures, with visual aids and/or actual path examples.
 
-![ 【﻿ｄｊａｎｇｓｙｍｔｍｐ．ｓｈ】3](https://github.com/shanerowden/django-template-symlinker/blob/master/imgs/djangsymtmp.sh-visual1.png)
+![【﻿ｄｊａｎｇｓｙｍｔｍｐ．ｓｈ】3](https://github.com/shanerowden/django-template-symlinker/blob/master/imgs/djangsymtmp.sh-visual1.png)
 
 While you must still install your templates where they go, you can manage them with these name-spacing solutions in a single, relatively top-level directory that makes the entire thing more maintainable.
 
