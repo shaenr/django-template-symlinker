@@ -2,8 +2,8 @@
 【﻿ｄｊａｎｇｓｙｍｔｍｐ．ｓｈ】 --  【﻿a simple Django-Template-Symlinker】
 This script automates the process of consolidating the infinitely many template directories that exist.
 
-[script](https://github.com/shanerowden/django-template-symlinker/blob/master/project/templates/djangsymtmp.sh)
-[demo-imgs](https://github.com/shanerowden/django-template-symlinker/tree/master/imgs)
++ [script](https://github.com/shanerowden/django-template-symlinker/blob/master/project/templates/djangsymtmp.sh)
++ [demo-imgs](https://github.com/shanerowden/django-template-symlinker/tree/master/imgs)
 
 
 ![【﻿ｄｊａｎｇｓｙｍｔｍｐ．ｓｈ】1](https://github.com/shanerowden/django-template-symlinker/blob/master/imgs/djangsymtmp.sh-visual00.png)
